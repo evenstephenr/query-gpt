@@ -2,6 +2,11 @@
 
 Game on
 
+## Requirements
+
+* Google Chrome
+* An OpenAI API key https://platform.openai.com/account/api-keys
+
 ## Setup
 
 1. Clone this repo
