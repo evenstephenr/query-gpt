@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Query GPT",
+  "description": "This is a chrome extension that lets you run Google Search queries against ChatGPT to compare results and have fun :)",
+  "version": "1.0.0",
+  "action": {},
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "query.js"
+  }
+}
