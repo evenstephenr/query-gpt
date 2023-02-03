@@ -21,8 +21,9 @@ chrome.runtime.sendMessage(
     url: 'https://api.openai.com/v1/completions',
     token: window.localStorage.getItem('ext-gptquery--apikey'),
     body: {
-      // ChatGPT API access is highly restricted right now
-      //  but we can use a public model
+      // ChatGPT API access is highly restricted right now, so you
+      //  may need muiltiple API keys
+      // TODO: make it easier to cycle keys
       model: 'text-davinci-003',
       prompt: new URLSearchParams(window.location.search).get('q'),
       max_tokens: 2048,
